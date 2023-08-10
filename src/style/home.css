@@ -1,0 +1,28 @@
+
+
+img{
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+    transition: all ease 0.5s;
+   
+}
+.image_contaner{
+    width:20em;
+    height:20em;
+    border-radius: 10px;
+    overflow: hidden;
+    align-items: center;
+    /* border: solid 2px red; */
+    margin-left: 50%;
+    transform: translateX(-50%);
+}
+
+.image_contaner:hover img{
+    scale: 1.4; /* this command use to resizeing on*/
+}
+p{
+ 
+    font-size: 18px;
+}
+

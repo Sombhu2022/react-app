@@ -1,0 +1,30 @@
+div.image_container{
+    width:20em;
+    height:20em;
+    border-radius: 10px;
+    overflow: hidden;
+    align-items: center;
+    border: solid 2px red; 
+    margin-left: 50%;
+    transform: translateX(-50%);
+    transition: all ease 0.5s;
+    
+    img{
+        width: 100%;
+        height: 100%;
+        // box-shadow: 10px 30px 20px gold;
+        // border: solid 1px green;
+        object-fit:cover;
+        overflow: hidden;
+       
+
+    }
+    &:hover{
+        height:34em;
+
+    }
+    &:hover img{
+        filter: drop-shadow(10px 30px 25px  aqua);
+        scale: 0.8; 
+    }
+}
